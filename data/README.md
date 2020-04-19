@@ -1,5 +1,12 @@
 # Download
 
+> In general, I like caching a local copy of the data up in releases (see below).
+> Sometimes it makes more sence to refer to the origional source and leave it at that.
+> Choose what works best for your project.
+> One of the nice things about working in GitHub is that you can also refer to other projects.
+> It might be that you are using another researcher's data set, or even a prior data set that you made.
+> In those cases, just link to their data sections and them use the rest of this document to describe what new efforts you bring to the party.
+
 The origional package can be downloaded by hand from [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
 The origional bill text _can_ be downloaded by hand from [congress.gov](https://www.congress.gov).
 For convience, we keep a 2nd copy of all the data gzip'ed in [releases][releases].
@@ -7,15 +14,23 @@ We need to source the data localy for everyone because GitHub has storage limits
 
 ## Steps
 
+> GitHub lets you keep upto a _total_ of 1 GB of files in your repository with a single file being no bigger than 100MB.
+> However, it allows you to keep 100GB of data in your releases section.
+> This artifical limit actually helps you in terms of data quality when you consider GitHub to be your research journal.
+> As you are making your observations, they become fixed.
+> You certinality don't want to commit data fraud by going back and updating the data.
+
+> Because of this, I strongly recomend keeping all your data compressed and in the Releases section of your Repository.
+> Each step below should tell you what file to bring down and place in _this_ folder.
+> Using this process, you get around most of the slow bloted repository issues, while still being able to write your code with relitive paths.
+> Trust me, others will thank you for not refering to a particular directory on your personal computer.
+
+> In general nothing (other than this file) should be stored in the `~/data` directory when viewed in GitHub.
+
 1. Retrieve the dataset _by hand_.
    Click on the [download](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/download) link, saving the file to `~/data/raw`
 2. Extract the data in-place
    1. right click the file, select '7-zip', select 'Extract Here'
-3. Extract the meta-data.
-   [Code instructions](../code/README.md) (script 1)
-3. Convert the raw JSON files into the nomal folder corpus format.
-   [Code instructions](../code/README.md) (script 2)
-
 
 ## Shortcuts
 
