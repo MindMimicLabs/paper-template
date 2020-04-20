@@ -1,6 +1,6 @@
 Below can be found a list of data manulipation scripts that help make this work posible.
 
-# Packages/Modules
+## Packages/Modules
 
 > Describe what programing language you use.
 > Is it R, Python, both?
@@ -8,7 +8,7 @@ Below can be found a list of data manulipation scripts that help make this work 
 > Make sure you add in the version of packages/modules you are using then add the install script to setup the enviorment. 
 
 All scripts have been tested on Python 3.8.2.
-The below modules are need to run the scripts.
+The below modules are needed to run the scripts.
 The scripts were tested on the noted versions, so YMMV.
 **Note**: not all modules are required for all scripts.
 If this it the first time running the scripts, the modules will need to be installed.
@@ -16,7 +16,7 @@ They can be installed by navigating to the `~/code` folder, then using the below
 
 > I recomend using the `requirments.txt` when you write in Python.
 
-> I like listing out requirments in alpha sort order.
+> I like listing out requirements in alpha sort order.
 > I find it is easer to see if they are already in the list that way.
 
 * nltk 3.4.5
@@ -28,7 +28,7 @@ python -c "import nltk;nltk.download('punkt')"
 ```
 
 All scripts have been tested on R/R Studio 3.6.2/1.2.5019.
-The below packages are need to run the scripts.
+The below packages are needed to run the scripts.
 The scripts were tested on the noted versions, so YMMV.
 **Note**: not all packages are required for all scripts.
 If this it the first time running the scripts, the packages will need to be installed.
@@ -41,7 +41,7 @@ They can be installed using the below code then re-starting RStudio.
 install.packages(c('dplyr', 'ggpubr'))
 ```
 
-# Scripts
+## Scripts
 
 > List out and number all the files found in this folder.
 > Give a brief discription of what there intended effects are.

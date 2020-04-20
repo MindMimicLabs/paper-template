@@ -1,7 +1,7 @@
 # Repo Template
 
 > You should think of GitHub as your modern research journal.
-> It is a place to write down your observations, leave notes as to what worked and what didnt, and automate any process you may have.
+> It is a place to write down your observations, leave notes as to what worked and what didn't, and automate any process you may have.
 > This repository template is intended to help collect your thoughts in a why to help others reproduce your work and learn from it.
 > Describe the purpose of the project.
 > What result does it demonstrate?
@@ -17,7 +17,7 @@
 The below steps can be taken to "re-play" the project's process.
 Each step may refer to a different README.
 In these cases, the step in that README will aslo be noted.
-It is recomended you read the full README as sometimes a step may contain a shortcut or other prior assumed knoledge.
+It is recommended you read the full README as sometimes a step may contain a shortcut or other prior assumed knowledge.
 
 When the work is still _in-progress_ a note of TODO, DOING, DONE should be added to the front
 
@@ -33,14 +33,14 @@ When the work is still _in-progress_ a note of TODO, DOING, DONE should be added
 
 # Prerequisites
 
-> I work primarly in Microsoft Windows.
+> I work primarily in Microsoft Windows.
 > That bias shows through here.
-> If you want to help others through spicific proceses for a different OS, feel free.
+> If you want to help others through specific processes for a different OS, feel free.
 
 The following packages need to be installed.
-You can use any method to install the prerequsits.
+You can use any method to install the prerequisites.
 I recommend using [Chocolatey](https://chocolatey.org/install).
-If you descide to use Chocolatey, open an _admin_ PowerShell prompt and run the code snipet below.
+If you decide to use Chocolatey, open an _admin_ PowerShell prompt and run the code snipet below.
 
 * [Python](https://www.python.org/downloads/)
 * [R](https://cran.r-project.org/bin/windows/base/) + [R Studio](https://www.rstudio.com/products/rstudio/download/)
