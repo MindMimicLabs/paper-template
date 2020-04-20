@@ -8,7 +8,7 @@
 > What tools/techniques does it use?
 > What are the key points others should learn.
 
-# Tabula Rasa
+## Tabula Rasa
 
 > Any type of research process will have some amount of steps that are taken to produce the result.
 > When a new researcher joins your team they should be able to read through the steps provided here and get up to speed with where the research stands.
@@ -31,7 +31,7 @@ When the work is still _in-progress_ a note of TODO, DOING, DONE should be added
     [Paper instructions](./paper/README.md)(script 1-2).
 
 
-# Prerequisites
+## Prerequisites
 
 > I work primarily in Microsoft Windows.
 > That bias shows through here.
